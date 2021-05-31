@@ -1,11 +1,11 @@
-
-import Home from '../view/Home';
+import React from 'react';
 import {Route, Switch} from 'react-router-dom';
+import SignIn from '../view/SignIn'
 
 const Index =()=>{
     return (
         <Switch>
-            <Route component={Home}  exact path={["/","/home"]}/>
+            <Route component={SignIn}  exact path={["/","/signin"]}/>
         </Switch>
     )
 }
