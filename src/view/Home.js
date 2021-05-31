@@ -1,11 +1,13 @@
 import React from 'react';
 import HomeComponent from '../component/HomeComponent';
+import MainLayout from '../component/MainLayoutComponent';
 
 
 
 const Home =()=>{
     return(
-        <HomeComponent> </HomeComponent>
+        <MainLayout></MainLayout>
+        // <HomeComponent> </HomeComponent>
     )
 }
 
